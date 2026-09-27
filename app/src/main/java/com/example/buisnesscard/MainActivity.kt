@@ -4,9 +4,7 @@ import android.os.Bundle
 import androidx.activity.ComponentActivity
 import androidx.activity.compose.setContent
 import androidx.compose.foundation.Image
-import androidx.compose.foundation.background
 import androidx.compose.foundation.layout.Arrangement
-import androidx.compose.foundation.layout.Box
 import androidx.compose.foundation.layout.Column
 import androidx.compose.foundation.layout.Row
 import androidx.compose.foundation.layout.Spacer
@@ -25,7 +23,6 @@ import androidx.compose.ui.Modifier
 import androidx.compose.ui.graphics.Color
 import androidx.compose.ui.res.painterResource
 import androidx.compose.ui.text.font.FontFamily
-import androidx.compose.ui.text.font.FontStyle
 import androidx.compose.ui.text.font.FontWeight
 import androidx.compose.ui.tooling.preview.Preview
 import androidx.compose.ui.unit.dp
@@ -38,7 +35,7 @@ class MainActivity : ComponentActivity() {
             MaterialTheme {
                 Surface(
                     modifier = Modifier.fillMaxSize(),
-                    color = Color(0xFFEBEBEB) // Symfony light grey background
+                    color = Color(0xFFEBEBEB)
                 ) {
                     BusinessCard()
                 }
@@ -75,7 +72,7 @@ fun ProfileCard() {
     Image(
         painter = painterResource(id = R.drawable.symfony_logo),
         contentDescription = "Symfony Logo",
-        modifier = Modifier.size(120.dp) // Adjust width/height as needed
+        modifier = Modifier.size(120.dp)
     )
 
     Spacer(modifier = Modifier.height(24.dp))
