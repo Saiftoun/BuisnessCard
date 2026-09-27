@@ -21,6 +21,13 @@ Final layout with complete styling, accurate color schemes, typography, and logo
 
 
 ---
+## 🚀 Final Result
+
+Screenshot of the working Jetpack Compose application running on the Android Emulator.
+
+<img width="376" height="752" alt="image" src="https://github.com/user-attachments/assets/2591e21e-9ec4-4258-ad04-a195c3b437fb" />
+
+---
 
 ## ✨ Features
 - Custom typography and layout built using **Jetpack Compose**.
