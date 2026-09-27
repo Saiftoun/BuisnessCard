@@ -17,7 +17,7 @@ Initial wireframe layout focusing on visual hierarchy, element placement, and st
 ### High-Fidelity Prototype
 Final layout with complete styling, accurate color schemes, typography, and logo branding.
 
-<img width="700" height="840" alt="highfidelity" src="https://github.com/user-attachments/assets/099b1bb7-f2c3-40ea-aaa8-de54a8dd81ef" />
+<img width="700" height="840" alt="highfidelity" src="https://github.com/user-attachments/assets/8130d519-06f0-41e7-b48c-a3249d12f1ae" />
 
 
 ---
